@@ -1,13 +1,3 @@
-<template>
-  <v-container fluid>
-    <v-slide-y-transition mode="out-in">
-      <v-layout column align-center>
-        <v-btn @click.native="reloadImage()">Reload</v-btn>
-        <div id="vega-box"></div>
-      </v-layout>
-    </v-slide-y-transition>
-  </v-container>
-</template>
 
 <script>
 import {default as vegaEmbed} from 'vega-embed'
@@ -24,6 +14,18 @@ export default {
   }
 }
 </script>
+
+
+<template>
+  <v-container fluid>
+    <v-slide-y-transition mode="out-in">
+      <v-layout column align-left>
+        <v-btn @click.native="reloadImage()">Reload</v-btn>
+        <div id="vega-box"></div>
+      </v-layout>
+    </v-slide-y-transition>
+  </v-container>
+</template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
