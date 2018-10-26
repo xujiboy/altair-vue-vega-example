@@ -22,7 +22,6 @@ const devWebpackConfig = merge(baseWebpackConfig, {
 
   // these devServer options should be customized in /config/index.js
   devServer: {
-    // Support arbitrary hosts during development
     disableHostCheck: true,
     clientLogLevel: 'warning',
     historyApiFallback: {

@@ -1,6 +1,6 @@
 # altair-app
 
-> A Vue.js project
+> example demo on Altair + Vega + VueJS
 
 ## Build Setup
 

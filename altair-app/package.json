@@ -1,8 +1,8 @@
 {
   "name": "altair-app",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "Uwe L. Korn <uwelk@xhochy.com>",
+  "description": "example demo on Altair + Vega + VueJS",
+  "author": "Ji Xu <ji@motivodata.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vega-embed": "^3.13.2",
+    "vega-embed": "^3.20.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuetify": "^1.0.0"
