@@ -78,12 +78,12 @@ export default {
       fixed: false,
       items: [{
         icon: 'bubble_chart',
-        title: 'Altair, Vega and Vue'
+        title: 'Testing'
       }],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'PyData Amsterdam Demo'
+      title: 'src/App.vue'
     }
   },
   name: 'App'
